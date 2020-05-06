@@ -2,14 +2,22 @@
 - - -
 ### Purpose of the project
 In the context of the COVID-19 pandemic, a simple website/ dashboard would be easy for everybody to follow the latest global figures as well as get more useful information.
-### Stages, tech stacks & status 
+
+### Real-time?
+YES, the only manual-thing is that you need to re-run the python code and click the 'refresh' button in Data Studio. This could be called automation somehow.
+This manual process could be automated if using Airflow!
+### Stages, tech stacks & status for project
+
 | Stage | Tech stacks | Status |
 | ----------- | ----------- | ----------- |
-| First | Python, Google Cloud API, Google Bigquery, SQL, Google Data Studio, Flourish | ✓ Done|
+| First | Python, Google Cloud API, Bigquery, SQL, Data Studio, Flourish, Tableau (optional) | ✓ Done|
 | Second | Add more useful functions to the dashboard | Processing |
 | Third | HTML, Javascript, CSS, Google Analytics, Google Tag Manager | Pending |
-| Fourth (Optional) | Airflow (high priority) explore new cloud database (low) | Pending |
-* Note: the fourth stage, I need time to research. 
+| Fourth (Optional) | Airflow (high priority), explore new cloud database (low) | Pending |
+* Note: 
+1. The fourth stage, I need time to research. 
+2. The first tage, We can use Tableau desktop version to connect with Bigquery for automation (feed new data everyday), but Flourish is free and it is pretty awesome! 
+
 ### Instant set up
 ##### Environment Installation (ds)
 Anaconda or Pycharm. Creating environment is easy to do, if with Anaconda:
