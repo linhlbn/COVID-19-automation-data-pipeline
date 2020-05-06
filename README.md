@@ -20,7 +20,7 @@ This manual process could be automated if using Airflow!
 
 ### Instant set up
 ##### Environment Installation (ds)
-Anaconda or Pycharm. Creating environment is easy to do, if with Anaconda:
+Anaconda or Pycharm. Creating environment with Pycharm is easy to do. If with Anaconda:
 ```
 $ pwd
 $ cd ...                             [to the project dir ]
