@@ -35,7 +35,7 @@ $ source activate <envs>
 `$ pip install google-cloud-bigquery`
 ##### Datasource
 get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
-##### ETL
+##### ETL (naive approach)
 * Daily data: each day, a new csv file will be created -> create a function to modify and Extract the latest csv file -> Transform -> Load to the data warehouse
 * Time series data: get directly from source, or load it into another database (optional)
 ##### Source code
