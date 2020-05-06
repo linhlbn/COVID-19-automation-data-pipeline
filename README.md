@@ -28,7 +28,7 @@ $ EXPORT PATH = "...."               [path to your anaconda]
 $ conda create -n ds python=3.7      [python version should be over 3.0 to use the cutting-edge API/ modules]
 ```
 
-##### Useful module
+##### Useful modules
 `$ pip install numpy pandas matplotlib seaborn requests`
 ##### Google Cloud 
 `$ pip install google-cloud-bigquery`
