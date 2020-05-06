@@ -25,7 +25,8 @@ Anaconda or Pycharm. Creating environment is easy to do, if with Anaconda:
 $ pwd
 $ cd ...                             [to the project dir ]
 $ EXPORT PATH = "...."               [path to your anaconda]
-$ conda create -n ds python=3.7      [python version should be over 3.0 to use the cutting-edge API/ modules]
+$ conda create -n <envs> python=3.7      [python version should be over 3.0 to use the cutting-edge API/ modules]
+$ source activate <envs>
 ```
 
 ##### Useful modules
