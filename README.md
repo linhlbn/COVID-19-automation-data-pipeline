@@ -33,7 +33,8 @@ $ (<envs>) python --version           [check version, it should be 3.7.4]
 `$ pip install numpy pandas matplotlib seaborn requests`
 ##### Google Cloud 
 `$ pip install google-cloud-bigquery` <br>
-if it does not work, use this command instead: `$ conda install pandas-gbq --channel conda-forge`
+if it does not work, use this command instead: 
+> `$ conda install pandas-gbq --channel conda-forge`
 ##### Datasource
 get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
 ##### ETL (naive approach)
