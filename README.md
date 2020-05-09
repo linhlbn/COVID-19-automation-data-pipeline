@@ -19,14 +19,15 @@ This manual process could be automated if using Airflow!
 2. The first tage, We can use Tableau desktop version to connect with Bigquery for automation (feed new data everyday), but Flourish is free and it is pretty awesome! 
 
 ### Instant set up
-##### Environment Installation (ds)
+##### Environment Installation
 Anaconda or Pycharm. Creating environment with Pycharm is easy to do. If with Anaconda:
 ```
 $ pwd
-$ cd ...                             [to the project dir ]
-$ EXPORT PATH = "...."               [path to your anaconda]
-$ conda create -n <envs> python=3.7      [python version should be over 3.0 to use the cutting-edge API/ modules]
+$ cd ...                              [to the project dir ]
+$ EXPORT PATH = "...."                [path to your anaconda]
+$ conda create -n <envs> python=3.7   [python version should be over 3.0 to use the cutting-edge API/ modules]
 $ source activate <envs>
+$ (<envs>) python --version           [check version, it should be 3.7.4]
 ```
 
 ##### Useful modules
