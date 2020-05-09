@@ -1,5 +1,4 @@
 # COVID-19 real-time analysis project
-- - -
 ### Purpose of the project
 In the context of the COVID-19 pandemic, a simple website/ dashboard would be easy for everybody to follow the latest global figures as well as get more useful information.
 
