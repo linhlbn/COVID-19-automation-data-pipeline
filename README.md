@@ -31,7 +31,7 @@ $ (<envs>) python --version           [check version, it should be 3.7.4]
 
 ##### Useful modules
 `$ pip install numpy pandas matplotlib seaborn requests`
-##### Google Cloud 
+##### Google Bigquery API 
 `$ pip install google-cloud-bigquery` <br>
 if it does not work, use this command instead: 
 > `$ conda install pandas-gbq --channel conda-forge`
