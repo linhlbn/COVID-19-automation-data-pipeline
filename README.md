@@ -1,6 +1,9 @@
 # COVID-19 real-time analysis project
 ### Purpose of the project
-In the context of the COVID-19 pandemic, a simple website or dashboard would be easy for everybody to follow the latest global figures as well as get more useful information.
+In the context of the COVID-19 pandemic, my project - a website/ dashboard that would be easy for everybody to follow the latest global figures as well as get more useful information such as: 
+* The social (data) analyst wants to show their insider about the epidemic status
+* The journalist wants to get the information about future of the pandemic by reading the prediction chart as a reference. 
+* Everyone who lives in affected countries could recognize then protect themself from the danger zone as well as release the pressure of mental health (worry, fear, etc) after seeing the downtrend of the epidemic.
 
 ### Real-time?
 YES, the only manual-thing is that you need to re-run the python code and click the 'refresh' button in Data Studio. This could be called automation somehow.
