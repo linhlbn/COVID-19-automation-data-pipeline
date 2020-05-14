@@ -6,7 +6,7 @@ In the context of the COVID-19 pandemic, my project - a website/ dashboard that 
 * Everyone who lives in affected countries could recognize then protect themself from the danger zone as well as release the pressure of mental health (worry, fear, etc) after seeing the downtrend of the epidemic.
 
 ## Real-time?
-YES, the only manual-thing is that you need to re-run the python code and click the 'refresh' button in Data Studio. This could be called automation somehow.
+YES, the only manual-thing is that you need to re-run the python code and click the 'refresh' button in Data Studio.
 This manual process could be automated if using Airflow!
 ## Stages, tech stacks & status for project
 
