@@ -41,7 +41,8 @@ if it does not work, use this command instead:
 ### Datasource
 get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
 ### ETL (naive approach)
-* Daily data: each day, a new csv file will be created -> create a function to modify and Extract the latest csv file -> Transform -> Load to the data warehouse
+* Daily data: each day, a new csv file will be created -> create a function to modify and extract the latest data to csv file -> Transform data in the file -> Load to the data warehouse
 * Time series data: get directly from source, or load it into another database (optional)
+* Queries command in the source code, the Google Cloud Platform and Data Studio. 
 ## Source code
 Stay tune! The code is ready, It will be posted later the same time with the next updated version!
