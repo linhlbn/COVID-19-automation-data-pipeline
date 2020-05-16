@@ -54,7 +54,7 @@ get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISa
 ##### Real-time?
 YES, the only manual-thing is that:
 * need to re-run the python code and click the 'refresh' button in Data Studio -> could be automated if using Airflow!
-* update data for the racing chart on Flourish -> could be automated if use Tableau Desktop version ( to connect with Bigquery
+* update data for the racing chart on Flourish -> could be automated if use Tableau Desktop version to connect with Bigquery.
 ##### Why Flourish instead of Tableau?
 Flourish is free and it is pretty awesome, Tableau costs expensive $70/month with the personal package - Tableau Creator.
 ##### Why Google Bigquery as a Data warehouse?
