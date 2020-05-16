@@ -1,12 +1,18 @@
 # COVID-19 real-time analysis project
-<a href="https://datastudio.google.com/s/qSPC32qTzPs"> Click here to navigate to the dashboard </a>
-## Purpose of the project
+<a href="https://datastudio.google.com/s/qSPC32qTzPs"> Click here to navigate to the dashboard </a> <br>
+| Table of Content |
+| I/ Purpose of the project |
+| II/ Stages, tech stacks & status for project |
+| III/ Instant set up |
+| IV/ Q&A |
+
+## I/ Purpose of the project
 In the context of the COVID-19 pandemic, my project - a website/ dashboard that would be easy for everybody to follow the latest global figures as well as get more useful information such as: 
 * The social (data) analyst wants to show their insider about the epidemic status
 * The journalist wants to get the information about future of the pandemic by reading the prediction part as a reference. 
 * Everyone who lives in affected countries could recognize then protect themself from the danger zone as well as release the pressure of mental health (worry, fear, etc) after seeing the downtrend of the epidemic.
 
-## Stages, tech stacks & status for project
+## II/ Stages, tech stacks & status for project
 
 | Stage | Tech stacks | Status |
 | ----------- | ----------- | ----------- |
@@ -19,7 +25,7 @@ In the context of the COVID-19 pandemic, my project - a website/ dashboard that 
 1. The fifth stage, I need time to research. 
 2. The first stage, We can use Tableau desktop version to connect with Bigquery for automation the racing chart, but Flourish is free and it is pretty awesome! 
 
-## Instant set up
+## III/ Instant set up
 ### Environment Installation
 Anaconda or Pycharm. Creating environment with Pycharm is easy to do. If with Anaconda:
 ```
@@ -43,9 +49,8 @@ get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISa
 * Daily data: each day, a new csv file will be created -> create a function to modify and extract the latest data to csv file -> Transform data in the file -> Load to the data warehouse
 * Time series data: get directly from source, or load it into another database (optional)
 * Queries command in the source code, the Google Cloud Platform and Data Studio. 
-## Source code
-Stay tune! The code is ready, It will be posted later the same time with the next updated version!
-## Q&A
+
+## IV/ Q&A
 ##### Real-time?
 YES, the only manual-thing is that:
 * need to re-run the python code and click the 'refresh' button in Data Studio -> could be automated if using Airflow!
@@ -55,3 +60,5 @@ Flourish is free and it is pretty awesome, Tableau costs expensive $70/month wit
 ##### Why Google Bigquery as a Data warehouse?
 I can use IBM-Db2 with IBM Watson Studio, but the `ibm-db` module has conflicted with my local machine environment. Besides that, the most important thing is:
 Google Bigquery is a serverless data warehouse (SaaS) that is a highly scalable, cost-effective, and real-time analysis with great performance. You not only can run a query to analyze terabytes-petabytes of data within seconds but also use it effectively with friendly user experience on Google Cloud Platform.
+##### I need to see your source code as a referrence!
+The code is ready, It will be posted later at the same time in the next stage of the project!
