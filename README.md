@@ -15,7 +15,7 @@ This manual process could be automated if using Airflow!
 | ----------- | ----------- | ----------- |
 | First | Python, Google Bigquery API, Bigquery, SQL, Data Studio, Flourish, Facebook Prophet, Tableau (optional) | ✓ Done|
 | Second (a) | Add more useful functions to the dashboard | ✓ Done |
-| Second (b) | Add more machine learning model to support some specific questions | Processing |
+| Second (b) | To answer some specific questions, use machine learning models to solve it (may use regression) | Processing |
 | Third (Optional) | HTML, Javascript, CSS, Google Analytics, Google Tag Manager | Pending |
 | Fourth (Optional) | Airflow (optional, if yes -> high priority), explore new cloud database (low) | Pending |
 * Note: 
