@@ -17,7 +17,7 @@ This manual process could be automated if using Airflow!
 | Second (a) | Add more useful functions to the dashboard | ✓ Done |
 | Second (b) | Add more machine learning model to support some specific questions | Processing |
 | Third (Optional) | HTML, Javascript, CSS, Google Analytics, Google Tag Manager | Pending |
-| Fourth (Optional) | Airflow (high priority), explore new cloud database (low) | Pending |
+| Fourth (Optional) | Airflow (optional, if yes -> high priority), explore new cloud database (low) | Pending |
 * Note: 
 1. The fourth stage, I need time to research. 
 2. The first tage, We can use Tableau desktop version to connect with Bigquery for automation (feed new data everyday), but Flourish is free and it is pretty awesome! 
