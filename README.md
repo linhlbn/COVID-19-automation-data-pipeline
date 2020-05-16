@@ -1,4 +1,5 @@
 # COVID-19 real-time analysis project
+<a href="https://datastudio.google.com/s/qSPC32qTzPs"> Click here to navigate to the dashboard </a>
 ## Purpose of the project
 In the context of the COVID-19 pandemic, my project - a website/ dashboard that would be easy for everybody to follow the latest global figures as well as get more useful information such as: 
 * The social (data) analyst wants to show their insider about the epidemic status
