@@ -13,7 +13,7 @@ This manual process could be automated if using Airflow!
 
 | Stage | Tech stacks | Status |
 | ----------- | ----------- | ----------- |
-| First | Python, Google Bigquery API, Bigquery, SQL, Data Studio, Flourish, Tableau (optional) | ✓ Done|
+| First | Python, Google Bigquery API, Bigquery, SQL, Data Studio, Flourish, Facebook Prophet, Tableau (optional) | ✓ Done|
 | Second | Add more useful functions to the dashboard | Processing |
 | Third (Optional) | HTML, Javascript, CSS, Google Analytics, Google Tag Manager | Pending |
 | Fourth (Optional) | Airflow (high priority), explore new cloud database (low) | Pending |
