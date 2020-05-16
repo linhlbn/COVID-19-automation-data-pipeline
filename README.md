@@ -7,13 +7,15 @@ In the context of the COVID-19 pandemic, my project - a website/ dashboard that 
 * Everyone who lives in affected countries could recognize then protect themself from the danger zone as well as release the pressure of mental health (worry, fear, etc) after seeing the downtrend of the epidemic.
 
 ## Real-time?
-YES, the only manual-thing is that you need to re-run the python code and click the 'refresh' button in Data Studio.
-This manual process could be automated if using Airflow!
+YES, the only manual-thing is that:
+* need to re-run the python code and click the 'refresh' button in Data Studio -> could be automated if using Airflow!
+* update data for the racing chart on Flourish  -> could be automated if use Tableau Desktop version ($70/m personal package - Tableau Creator)
+
 ## Stages, tech stacks & status for project
 
 | Stage | Tech stacks | Status |
 | ----------- | ----------- | ----------- |
-| First | Python, Google Bigquery API, Bigquery (Google Cloud Platform), SQL, Data Studio, Flourish, Facebook Prophet, Tableau (optional) | ✓ Done|
+| First | Python, Google Bigquery API, Bigquery (Google Cloud Platform), SQL, Data Studio, Flourish, Facebook Prophet, Tableau Desktop version(optional) | ✓ Done|
 | Second (a) | Add more useful functions to the dashboard | ✓ Done |
 | Second (b) | To answer some specific questions, use machine learning models to solve it | Processing |
 | Third (Optional) | HTML, Javascript, CSS, Google Analytics, Google Tag Manager | depend on timeline |
