@@ -33,11 +33,11 @@ $ source activate <envs>
 $ (<envs>) python --version           [check version, it should be 3.7.4]
 ```
 
-### Useful modules
-`$ pip install numpy pandas matplotlib seaborn requests`
-### Google Bigquery API 
-`$ pip install google-cloud-bigquery` <br>
-if it does not work, use this command instead: 
+### Used modules
+`$ pip install numpy pandas matplotlib seaborn io requests datetime `
+### Google Bigquery API & Facebook Prophet
+`$ pip install google-cloud-bigquery fbprophet` <br>
+if it does not work for Google Bigquery, use this command instead: 
 > `$ conda install pandas-gbq --channel conda-forge`
 ### Datasource
 get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
