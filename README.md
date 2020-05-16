@@ -16,10 +16,10 @@ YES, the only manual-thing is that:
 | Stage | Tech stacks | Status |
 | ----------- | ----------- | ----------- |
 | First | Python, Google Bigquery API, Bigquery (Google Cloud Platform), SQL, Data Studio, Flourish, Facebook Prophet, Tableau Desktop version(optional) | ✓ Done|
-| Second (a) | Add more useful functions to the dashboard | ✓ Done |
-| Second (b) | To answer some specific questions, use machine learning models to solve it | Processing |
-| Third (Optional) | HTML, Javascript, CSS, Google Analytics, Google Tag Manager | depend on timeline |
-| Fourth (Optional) | Airflow (optional, if necessary -> high priority), explore new cloud database (low - if needed) | depend on timeline |
+| Second | Add more useful functions to the dashboard | ✓ Done |
+| Third | To answer some specific questions, use machine learning models to solve it | Processing |
+| Fourth (Optional) | HTML, Javascript, CSS, Google Analytics, Google Tag Manager | depend on timeline |
+| Fifth (Optional) | Airflow (optional, if necessary -> high priority), explore new cloud database (low - if needed) | depend on timeline |
 * Note: 
 1. The fourth stage, I need time to research. 
 2. The first tage, We can use Tableau desktop version to connect with Bigquery for automation (feed new data everyday), but Flourish is free and it is pretty awesome! 
