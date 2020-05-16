@@ -1,6 +1,7 @@
 # COVID-19 real-time analysis project
 <a href="https://datastudio.google.com/s/qSPC32qTzPs"> Click here to navigate to the dashboard </a> <br>
 | Table of Content |
+| --- |
 | I/ Purpose of the project |
 | II/ Stages, tech stacks & status for project |
 | III/ Instant set up |
