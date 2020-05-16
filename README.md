@@ -6,11 +6,6 @@ In the context of the COVID-19 pandemic, my project - a website/ dashboard that 
 * The journalist wants to get the information about future of the pandemic by reading the prediction part as a reference. 
 * Everyone who lives in affected countries could recognize then protect themself from the danger zone as well as release the pressure of mental health (worry, fear, etc) after seeing the downtrend of the epidemic.
 
-## Real-time?
-YES, the only manual-thing is that:
-* need to re-run the python code and click the 'refresh' button in Data Studio -> could be automated if using Airflow!
-* update data for the racing chart on Flourish  -> could be automated if use Tableau Desktop version ($70/m personal package - Tableau Creator)
-
 ## Stages, tech stacks & status for project
 
 | Stage | Tech stacks | Status |
@@ -19,10 +14,10 @@ YES, the only manual-thing is that:
 | Second | Add more useful functions to the dashboard | ✓ Done |
 | Third | To answer some specific questions, use machine learning models to solve it | Processing |
 | Fourth (Optional) | HTML, Javascript, CSS, Google Analytics, Google Tag Manager | depend on timeline |
-| Fifth (Optional) | Airflow (optional, if necessary -> high priority), explore new cloud database (low - if needed) | depend on timeline |
+| Fifth (Optional) | Airflow (if necessary -> high priority), explore new cloud database (if needed) | depend on timeline |
 * Note: 
-1. The fourth stage, I need time to research. 
-2. The first tage, We can use Tableau desktop version to connect with Bigquery for automation (feed new data everyday), but Flourish is free and it is pretty awesome! 
+1. The fifth stage, I need time to research. 
+2. The first stage, We can use Tableau desktop version to connect with Bigquery for automation the racing chart, but Flourish is free and it is pretty awesome! 
 
 ## Instant set up
 ### Environment Installation
@@ -50,3 +45,13 @@ get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISa
 * Queries command in the source code, the Google Cloud Platform and Data Studio. 
 ## Source code
 Stay tune! The code is ready, It will be posted later the same time with the next updated version!
+## Q&A
+##### Real-time?
+YES, the only manual-thing is that:
+* need to re-run the python code and click the 'refresh' button in Data Studio -> could be automated if using Airflow!
+* update data for the racing chart on Flourish -> could be automated if use Tableau Desktop version ( to connect with Bigquery
+##### Why Flourish instead of Tableau?
+Flourish is free and it is pretty awesome, Tableau costs expensive $70/month with the personal package - Tableau Creator.
+##### Why Google Bigquery as a Data warehouse?
+I can use IBM-Db2 with IBM Watson Studio, but the `ibm-db` module has conflicted with my local machine environment. Besides that, the most important thing is:
+Google Bigquery is a serverless data warehouse (SaaS) that is a highly scalable, cost-effective, and real-time analysis with great performance. You not only can run a query to analyze terabytes-petabytes of data within seconds but also use it effectively with friendly user experience on Google Cloud Platform.
