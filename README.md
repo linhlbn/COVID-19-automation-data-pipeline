@@ -1,4 +1,4 @@
-# COVID-19 real-time analysis project
+# COVID 19 automation pipeline - Interactive dashboard
 <a href="https://datastudio.google.com/s/qSPC32qTzPs"> Click here to navigate to the dashboard </a> <br>
 | Table of Content |
 | --- |
@@ -52,10 +52,10 @@ get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISa
 * Queries command in the source code, the Google Cloud Platform and Data Studio. 
 
 ## IV/ Q&A
-##### Real-time?
+##### Automation?
 YES, the only manual-thing is that:
-* need to re-run the python code and click the 'refresh' button in Data Studio -> could be automated if using Airflow!
-* update data for the racing chart on Flourish -> could be automated if use Tableau Desktop version to connect with Bigquery.
+* need to re-run the python code and click the 'refresh' button in Data Studio to update the latest data from source -> could be totally automated if using Airflow!
+* update data for the racing chart on Flourish -> could be automated if use Tableau Desktop version to connect with Bigquery and set the scheduled query.
 ##### Why Flourish instead of Tableau?
 Flourish is free and it is pretty awesome, Tableau costs expensive $70/month with the personal package - Tableau Creator.
 ##### Why Google Bigquery as a Data warehouse?
