@@ -47,7 +47,7 @@ if it does not work for Google Bigquery, use this command instead:
 ### Datasource
 get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
 ### Approach
-* Daily data: each day, a new csv file will be created -> create a function to modify and extract the latest data to csv file -> Transform data in the file -> Load to the data warehouse
+* Daily data: each day, a new csv file will be created -> create a function to modify and extract the latest data to csv file -> Transform data to the suitable form -> Load to the data warehouse -> set scheduled query for visualization
 * Time series data: get directly from source, or load it into another database (optional)
 * Queries command in the source code, the Google Cloud Platform and Data Studio. 
 
