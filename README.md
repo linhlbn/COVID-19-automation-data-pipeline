@@ -20,7 +20,7 @@ In the context of the COVID-19 pandemic, my project - a website/ dashboard that 
 | First | Python, Google Bigquery API, Bigquery (Google Cloud Platform), SQL, Data Studio, Flourish, Facebook Prophet, Tableau Desktop version(optional) | ✓ Done|
 | Second | Add more useful functions to the dashboard | ✓ Done |
 | Third | Ad-hoc analysis: To answer some specific questions, use machine learning models to solve it with specific metrics | Processing |
-| Fourth (Optional) | HTML, Javascript, CSS, Google Analytics, Google Tag Manager | depend on timeline |
+| Fourth (Optional) | HTML, Javascript, CSS, Google Analytics & Google Tag Manager (tracking) | depend on timeline |
 | Fifth (Optional) | Airflow (if necessary -> high priority), explore new cloud database (if needed) | depend on timeline |
 * Note: 
 1. The fifth stage, I need time to research. 
