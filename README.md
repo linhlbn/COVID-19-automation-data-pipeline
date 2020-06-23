@@ -53,7 +53,7 @@ get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISa
 ## IV/ Q&A
 ##### Automation?
 YES, the only manual-thing is that:
-* need to re-run the python code and click the 'refresh' button in Data Studio to update the latest data from source -> could be totally automated if implement the fifth stage!
+* need to re-run the python code and click the 'refresh' button in Data Studio to update the latest data from source and transformed data to new ad-hoc features -> could be totally automated if implement the fifth stage!
 * update data for the racing chart on Flourish -> could be automated if use Tableau Desktop version to connect with Bigquery and set the scheduled query.
 ##### Why Flourish instead of Tableau?
 Flourish is free and it is pretty awesome, Tableau costs expensive $70/month with the personal package - Tableau Creator.
