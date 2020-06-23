@@ -20,8 +20,8 @@ In the context of the COVID-19 pandemic, my project - a website/ dashboard that 
 | First | Python, Google Bigquery API, Bigquery (Google Cloud Platform), SQL, Data Studio, Flourish, Facebook Prophet, Tableau Desktop version(optional) | ✓ Done|
 | Second | Add more useful functions to the dashboard | ✓ Done |
 | Third | Ad-hoc analysis: To answer some specific questions, use machine learning models to solve it with specific metrics | Processing |
-| Fourth (Optional) | HTML, Javascript, CSS, Google Analytics & Google Tag Manager (tracking) | considering |
-| Fifth (Optional) | GCP: Cloud Function, Cloud Scheduler and Pub/Sub, explore new cloud database | considering |
+| Fourth (Optional) | HTML, Javascript, CSS, GA & GTM | considering |
+| Fifth (Optional) | GCP: Cloud Function, Cloud Scheduler and Pub/Sub | considering |
 * Note: 
 1. The fifth stage, I need time to research. 
 2. The first stage, We can use Tableau desktop version to connect with Bigquery for automation the racing chart, but Flourish is free and it is pretty awesome! 
@@ -53,7 +53,7 @@ get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISa
 ## IV/ Q&A
 ##### Automation?
 YES, the only manual-thing is that:
-* need to re-run the python code and click the 'refresh' button in Data Studio to update the latest data from source -> could be totally automated if using Airflow!
+* need to re-run the python code and click the 'refresh' button in Data Studio to update the latest data from source -> could be totally automated if implement the fifth stage!
 * update data for the racing chart on Flourish -> could be automated if use Tableau Desktop version to connect with Bigquery and set the scheduled query.
 ##### Why Flourish instead of Tableau?
 Flourish is free and it is pretty awesome, Tableau costs expensive $70/month with the personal package - Tableau Creator.
