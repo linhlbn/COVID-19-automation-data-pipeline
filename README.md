@@ -1,4 +1,4 @@
-# COVID 19 automation pipeline - Interactive dashboard
+# COVID 19 automation data pipeline - Interactive dashboard
 <a href="https://datastudio.google.com/s/qSPC32qTzPs"> Click here to navigate to the dashboard </a> <br>
 | Table of Content |
 | --- |
