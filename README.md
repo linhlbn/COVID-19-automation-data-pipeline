@@ -5,7 +5,11 @@
 | I/ Purpose of the project |
 | II/ Stages, tech stacks & status for project |
 | III/ Instant set up |
+<<<<<<< HEAD
 | IV/ Question & My Solution |
+=======
+| IV/ Q&A |
+>>>>>>> parent of 0202471 (Update README.md)
 _____
 ## I/ Purpose of the project
 In the context of the COVID-19 pandemic, my project - a website/ dashboard that would be easy for everybody to follow the latest global figures as well as get more useful information such as:
@@ -43,11 +47,21 @@ $ (<envs>) python --version           [check version, it should be 3.7.4]
 `$ pip install google-cloud-bigquery fbprophet` <br>
 if it does not work for Google Bigquery, use this command instead:
 > `$ conda install pandas-gbq --channel conda-forge`
+<<<<<<< HEAD
 ### Datasource & Approach
 Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
 > The Python script includes functions to retrieve the latest data, transform & add new features for ad-hoc analysis as well as the suitable form for visualizing.
 
 ## IV/ Question & My Solution
+=======
+### Datasource
+get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
+### Approach
+* Daily data & Time series data: each day, a new/ updated csv file will be created on JHU github -> create a function to modify the link and extract the latest data to csv file -> Transform data to the suitable form (very important step in order to work with queries and dashboard) -> Load to the data warehouse -> set scheduled query for visualization
+* Queries command in both the source code, Google Cloud Platform and Data Studio. 
+
+## IV/ Q&A
+>>>>>>> parent of 0202471 (Update README.md)
 ##### Automation?
 YES, the only manual-thing is that:
 * need to re-run the python code and click the 'refresh' button in Data Studio to update the latest data from source and transformed data to new ad-hoc features -> could be totally automated if implement the fifth stage!
