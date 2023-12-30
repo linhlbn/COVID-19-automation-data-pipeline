@@ -6,7 +6,11 @@
 | II/ Stages, tech stacks & status for project |
 | III/ Instant set up |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | IV/ Question & My Solution |
+=======
+| IV/ Q&A |
+>>>>>>> parent of 0202471 (Update README.md)
 =======
 | IV/ Q&A |
 >>>>>>> parent of 0202471 (Update README.md)
@@ -48,11 +52,21 @@ $ (<envs>) python --version           [check version, it should be 3.7.4]
 if it does not work for Google Bigquery, use this command instead:
 > `$ conda install pandas-gbq --channel conda-forge`
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Datasource & Approach
 Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
 > The Python script includes functions to retrieve the latest data, transform & add new features for ad-hoc analysis as well as the suitable form for visualizing.
 
 ## IV/ Question & My Solution
+=======
+### Datasource
+get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
+### Approach
+* Daily data & Time series data: each day, a new/ updated csv file will be created on JHU github -> create a function to modify the link and extract the latest data to csv file -> Transform data to the suitable form (very important step in order to work with queries and dashboard) -> Load to the data warehouse -> set scheduled query for visualization
+* Queries command in both the source code, Google Cloud Platform and Data Studio. 
+
+## IV/ Q&A
+>>>>>>> parent of 0202471 (Update README.md)
 =======
 ### Datasource
 get directly from Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
