@@ -5,12 +5,12 @@
 | I/ Purpose of the project |
 | II/ Stages, tech stacks & status for project |
 | III/ Instant set up |
-| IV/ Question & Solution |
+| IV/ Question & My Solution |
 _____
 ## I/ Purpose of the project
-In the context of the COVID-19 pandemic, my project - a website/ dashboard that would be easy for everybody to follow the latest global figures as well as get more useful information such as: 
+In the context of the COVID-19 pandemic, my project - a website/ dashboard that would be easy for everybody to follow the latest global figures as well as get more useful information such as:
 * The social (data) analyst wants to show their insider about the epidemic status
-* The journalist wants to get the information about future of the pandemic by reading the prediction part as a reference. 
+* The journalist wants to get the information about future of the pandemic by reading the prediction part as a reference.
 * Everyone who lives in affected countries could recognize then protect themself from the danger zone as well as release the pressure of mental health (worry, fear, etc) after seeing the downtrend of the epidemic.
 
 ## II/ Stages, tech stacks & status for project
@@ -18,13 +18,12 @@ In the context of the COVID-19 pandemic, my project - a website/ dashboard that 
 | Stage | Tech stacks | Status |
 | ----------- | ----------- | ----------- |
 | First | Python, Google Bigquery API, Bigquery (Google Cloud Platform), SQL, Data Studio, Flourish, Facebook Prophet, Tableau Desktop version(optional) | ✓ Done|
-| Second | Add more useful functions to the dashboard | ✓ Done |
-| Third | Ad-hoc analysis: To answer some specific questions, use machine learning models to solve it with specific metrics | Processing |
-| Fourth (Optional) | HTML, Javascript, CSS, GA & GTM | considering |
-| Fifth (Optional) | GCP: Cloud Function, Cloud Scheduler and Pub/Sub | considering |
-* Note: 
-1. The fifth stage, I need time to research. 
-2. The first stage, We can use Tableau desktop version to connect with Bigquery for automation the racing chart, but Flourish is free and it is pretty awesome! 
+| Second | Add more useful information to the dashboard | ✓ Done |
+| Third | Predict cases | ✓ Done |
+
+* Note:
+1. The fifth stage, I need time to research.
+2. The first stage, We can use Tableau desktop version to connect with Bigquery for automation the racing chart, but Flourish is free and it is pretty awesome!
 
 ## III/ Instant set up
 ### Environment Installation
@@ -42,13 +41,13 @@ $ (<envs>) python --version           [check version, it should be 3.7.4]
 `$ pip install numpy pandas matplotlib seaborn io requests datetime `
 ### Google Bigquery API & Facebook Prophet
 `$ pip install google-cloud-bigquery fbprophet` <br>
-if it does not work for Google Bigquery, use this command instead: 
+if it does not work for Google Bigquery, use this command instead:
 > `$ conda install pandas-gbq --channel conda-forge`
-### Datasource
+### Datasource & Approach
 Johns Hopkins University: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series">JHU CSSE COVID-19 Dataset</a>
 > The Python script includes functions to retrieve the latest data, transform & add new features for ad-hoc analysis as well as the suitable form for visualizing.
 
-## IV/ Question and Solution
+## IV/ Question & My Solution
 ##### Automation?
 YES, the only manual-thing is that:
 * need to re-run the python code and click the 'refresh' button in Data Studio to update the latest data from source and transformed data to new ad-hoc features -> could be totally automated if implement the fifth stage!
@@ -56,7 +55,7 @@ YES, the only manual-thing is that:
 ##### Why Flourish instead of Tableau?
 Flourish is free and it is pretty awesome, Tableau costs expensive $70/month with the personal package - Tableau Creator.
 ##### Why Google Bigquery as a Data warehouse?
-I can use IBM-Db2 with IBM Watson Studio, but the `ibm-db` module has conflicted with my local machine environment. Besides that, the most important thing is:
+I can use IBM-Db2 with IBM Watson Studio, but the `ibm-db` module has conflicted with my local machine environment - cannot execute the module. Besides that, the most important thing is:
 Google Bigquery is a serverless data warehouse (SaaS) that is a highly scalable, cost-effective, and real-time analysis with great performance. You not only can run a query to analyze terabytes-petabytes of data within seconds but also use it effectively with friendly user experience on Google Cloud Platform.
 ##### I need to see your source code as a referrence!
-The code is ready, It will be posted later at the same time in the next stage of the project!
+Updated (Note that I am working on this project when I was first year student, therefore, the code is quiet messy)
